@@ -10,10 +10,10 @@ const projects = [
     codeLink: "#",
   },
   {
-    title: "E-commerce Store",
+    title: "Online Invoice Generator",
     description:
       "An online store built with React and Tailwind CSS featuring product listings, shopping cart, and checkout functionality. Designed to be responsive and user-friendly across all devices.",
-    image: "./assets/ffc.png",
+    image: "./assets/smartinvoice.png",
     demoLink: "#",
     codeLink: "#",
   },
