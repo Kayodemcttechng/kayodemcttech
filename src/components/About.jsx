@@ -10,7 +10,7 @@ const About = () => {
         <div className="lg:flex-1 flex justify-center">
           <img 
             className="rounded-lg lg:w-[500px] w-full h-auto shadow-lg"
-            src="../assets/kayimg.jpeg" 
+            src="./assets/kayimg.jpeg" 
             alt="Kayode Mcttech"
           />
         </div>
