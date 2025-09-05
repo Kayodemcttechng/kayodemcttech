@@ -5,7 +5,7 @@ const projects = [
     title: "School Website",
     description:
       "A fully responsive website for a school with Nursery, Primary, and Secondary arms. Focused on a clean, modern interface to clearly communicate the school’s mission, values, and academic structure.",
-    image: "./src/assets/ffc.png",
+    image: "./assets/ffc.png",
     demoLink: "#",
     codeLink: "#",
   },
@@ -13,7 +13,7 @@ const projects = [
     title: "E-commerce Store",
     description:
       "An online store built with React and Tailwind CSS featuring product listings, shopping cart, and checkout functionality. Designed to be responsive and user-friendly across all devices.",
-    image: "./src/assets/ffc.png",
+    image: "./assets/ffc.png",
     demoLink: "#",
     codeLink: "#",
   },
@@ -21,7 +21,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website to showcase my skills, projects, and experience. Fully responsive with smooth navigation and clean design.",
-    image: "./src/assets/ffc.png",
+    image: "./assets/ffc.png",
     demoLink: "#",
     codeLink: "#",
   },
