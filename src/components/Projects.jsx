@@ -6,7 +6,7 @@ const projects = [
     description:
       "A fully responsive website for a school with Nursery, Primary, and Secondary arms. Focused on a clean, modern interface to clearly communicate the school’s mission, values, and academic structure.",
     image: "./assets/ffc.png",
-    demoLink: "https://fruitsschools.com/",
+    demoLink: "https://firstfruitsschools.com/",
     codeLink: "#",
   },
   {
