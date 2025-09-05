@@ -6,7 +6,7 @@ const projects = [
     description:
       "A fully responsive website for a school with Nursery, Primary, and Secondary arms. Focused on a clean, modern interface to clearly communicate the school’s mission, values, and academic structure.",
     image: "./assets/ffc.png",
-    demoLink: "#",
+    demoLink: "https://fruitsschools.com/",
     codeLink: "#",
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     description:
       "An online store built with React and Tailwind CSS featuring product listings, shopping cart, and checkout functionality. Designed to be responsive and user-friendly across all devices.",
     image: "./assets/smartinvoice.png",
-    demoLink: "#",
+    demoLink: "https://smartinvoice-five.vercel.app/",
     codeLink: "#",
   },
   {
