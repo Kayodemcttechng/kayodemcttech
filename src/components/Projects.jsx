@@ -40,7 +40,7 @@ const Projects = () => {
             key={index}
             className={`flex flex-col lg:flex-row ${
               index % 2 === 1 ? "lg:flex-row-reverse" : ""
-            } items-center gap-10 w-[85%] mx-auto`}
+            } items-center gap-10 w-[65%] mx-auto`}
           >
             {/* Image */}
             <div className="lg:flex-1 flex justify-center">
