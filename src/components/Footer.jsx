@@ -19,7 +19,7 @@ const Footer = () => {
 
       {/* Social Links */}
       <div className="max-w-screen-xl mx-auto px-6 text-center mt-8">
-        <p className="mb-4 text-lg font-semibold text-white">Connect with me</p>
+        <p className="mb-4 text-lg font-semibold text-white">Connect with me!</p>
 
         <div className="flex justify-center gap-6 items-center">
           <a
