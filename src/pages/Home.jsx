@@ -5,7 +5,7 @@ import About from '../components/About'
 import Stacks from '../components/Stacks'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
