@@ -5,7 +5,7 @@ import About from '../components/About'
 import Stacks from '../components/Stacks'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-import Footer from '../components/Footer'
+import Foooter from '../components/Foooter'
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
         <Stacks />
         <Projects />
         <Contact />
-        <Footer />
+        <Foooter />
     </section>
   )
 }
