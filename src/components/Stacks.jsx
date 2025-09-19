@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stacks = () => {
   return (
-    <section className="relative bg-[url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.jpg')] py-16 px-6 overflow-hidden bg-cover">
+    <section className=" bg-gray-900 py-16 px-6">
   {/* Background Design Layer (Gradient or Blur Shape) */}
 
   {/* Content */}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="bg-[url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.jpg')] bg-cover bg-center py-20 px-6">
+    <div className=" bg-gray-900 py-16 px-6">
       {/* Heading */}
       <h2 className="text-4xl font-bold text-white text-center">
         Get <span className="text-red-500">In Touch</span>

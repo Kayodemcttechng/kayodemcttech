@@ -5,11 +5,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white py-4">
+    <nav className="bg-gray-900 text-white py-4">
       <div className="max-w-screen-2xl mx-auto flex justify-between px-8 py-4 items-center">
         {/* Logo */}
         <div className="lg:text-3xl font-bold">
-          Kayode<span className="text-red-500 font-bold">Mcttech</span>
+          Kayode<span className="text-[#d9c7b2] font-bold">Mcttech</span>
         </div>
 
         {/* Desktop Menu */}

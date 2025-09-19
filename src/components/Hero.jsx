@@ -1,32 +1,34 @@
-import React from 'react';
-
-const Hero = () => {
+export default function Hero() {
   return (
-    <div className="relative bg-[url('/public/assets/kayodemcttech.jpg')] bg-cover bg-center h-[50vh]">
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+    <section className="relative h-[80vh] flex items-center justify-center text-center">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://www.geekextreme.com/wp-content/uploads/2024/09/best-ide-for-java-programming-Superior-for-Java-Web-Development_-MyEclipse-298855637.jpg')",
+        }}
+      />
+
+      {/* Overlay to match your bg-[#f5e6d3] */}
+      <div className="absolute inset-0 bg-[#000]/60" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-        <h1 className="text-4xl md:text-5xl text-white font-extrabold mb-4">
-          Hi, I’m <span className="text-red-500">Kayode</span>
+      <div className="relative max-w-3xl mx-auto px-6 space-y-6">
+        <h1 className="text-4xl md:text-5xl font-bold text-white">
+          I’m a WordPress Developer & Frontend Developer
         </h1>
-        <p className="text-lg md:text-2xl text-gray-200 max-w-2xl">
-          A Frontend Engineer passionate about building modern, responsive, and user-friendly web applications.
+       <div> <p className="mt-4 text-lg md:text-xl text-slate-100">
+          I create beautiful, fast, and responsive websites that help businesses stand out online.
+          From custom WordPress solutions to sleek, modern front-end interfaces, I transform ideas
+          into seamless, pixel-perfect digital experiences.
         </p>
-
-        {/* Buttons */}
-        <div className="flex flex-wrap gap-4 mt-6 justify-center">
-          <button className="bg-white text-black font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition">
-            View My Projects
-          </button>
-          <button className="bg-red-500 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-red-600 transition">
-            Get In Touch
-          </button>
-        </div>
+        <button className="mt-6 px-6 py-3 bg-gray-900 text-white rounded-2xl shadow hover:bg-gray-800 transition">
+          View My Work
+        </button> | <button className="mt-6 px-6 py-3 bg-gray-900 text-white rounded-2xl shadow hover:bg-gray-800 transition">
+          Work With Me
+        </button></div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default Hero;
+}
